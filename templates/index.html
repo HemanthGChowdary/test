@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                padding: 15px;
+                text-align: center;
+                background: #2596be;
+                color: white;
+                font-size: 30px;
+                position: sticky;
+                top: 0;
+            }
+            .btn{
+              width: 80px;
+              background-color: #008CBA;
+              border: none;
+              border-radius: 4px;
+              height: 5%;
+              color: white;
+            }
+
+            .btn:hover
+            {
+            background-image:none;
+            background-color: #63BA76;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1><b>APRIORI ALGORITHM PROJECT</b><br><span style="font-size: smaller;">Karna Gopi Chandh Reddy</span> |&nbsp <span style="font-size: smaller;">CSU ID: 2836070</span></h1>
+            <form action="/result/" enctype="multipart/form-data" method="post" style="margin-left: 420px;margin-right: 450px;">
+                <h4 style="text-align: start;">Upload File:&nbsp &nbsp<input type="file" name="csv" id="csv" class="file-btn" required></h4>
+                <h4 style="text-align: start;">Min Support: <input min="1" max="1000" type="number" id="min_sup" name="min_sup" required></h4>
+                <h4 style="margin-right: 28%;"><input type="submit" class='btn' name="submit" value="submit" id="submit-button" style=""></h4>
+            </form>
+    </body>
+</html>

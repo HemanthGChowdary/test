@@ -1,0 +1,13 @@
+<center>
+<div>
+    {% if data and data.error %}
+        ERROR : <p>{{ data.error }}</p>
+    {% endif %}
+    {% if data.no_of_items != 0 and data.error is none %}
+        <h4>File Name : {{ data.file_name }}</h4>
+        <h4>Execution Time : {{data.time}} </h4>
+        RESULTS : <p>{{ data.result }}</p>
+        <h4>Items In Total  : {{ data.no_of_items }} </h4>
+    {% endif %}
+</div>
+</center>
